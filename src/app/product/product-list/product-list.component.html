@@ -1,0 +1,98 @@
+<div class="container">
+  <div class="row mt-5 mb-5">
+    <div class="col-md-12">
+      <div class="products-wrapper">
+        <div class="heading-wrapper">
+          <h3>Manage Products</h3>
+          <div class="btn-wrapper">
+            <button
+              type="button"
+              class="btn btn-primary"
+              (click)="addNewproduct()"
+            >
+              <i class="fa fa-plus-circle mr-2" aria-hidden="true"></i> Add New
+              Product
+            </button>
+          </div>
+        </div>
+        <div class="list-wrapper">
+          <div class="table-responsive">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">Product Name</th>
+                  <th scope="col">Description</th>
+                  <th scope="col">Price</th>
+                  <th scope="col">Reviews</th>
+                  <th scope="col">Status</th>
+                  <th scope="col">Action</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngIf="isLoading" class="loading-wrapper">
+                  <td colspan="6">
+                    <h4>Loading products...</h4>
+                  </td>
+                </tr>
+                <ng-container *ngIf="!isLoading">
+                  <tr
+                    *ngFor="
+                      let product of productsListData
+                        | paginate
+                          : {
+                              itemsPerPage: perPage,
+                              currentPage: p,
+                              totalItems: total
+                            }
+                    "
+                  >
+                    <td style="width: 15%">{{ product.Name }}</td>
+                    <td style="width: 40%">
+                      {{ product.Description | slice: 0:100 }} ...
+                    </td>
+                    <td style="width: 10%">{{ product.Price }}</td>
+                    <td style="width: 10%">
+                      <rating
+                        [(ngModel)]="product.Ratings"
+                        [max]="max"
+                        [readonly]="isReadonly"
+                      ></rating>
+                    </td>
+                    <td style="width: 15%">
+                      {{
+                        product.Status === "true"
+                          ? "Available"
+                          : "Not Available"
+                      }}
+                    </td>
+                    <td style="width: 10%">
+                      <i
+                        class="fa fa-eye fa-purple me-2"
+                        aria-hidden="true"
+                        (click)="openModalWithComponent(product.id)"
+                      ></i>
+                      <i
+                        class="fa fa-pencil fa-purple me-2"
+                        aria-hidden="true"
+                        (click)="onUpdateproduct(product.id)"
+                      ></i>
+                      <i
+                        class="fa fa-ban fa-purple"
+                        aria-hidden="true"
+                        (click)="onDeleteproduct(product.id)"
+                      ></i>
+                    </td></tr
+                ></ng-container>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <pagination-controls
+          (pageChange)="p = $event"
+          *ngIf="!isLoading"
+        ></pagination-controls>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,108 @@
+{
+  "products": [
+    {
+      "Name": "Garlic Press",
+      "Description": "It is an essential tool in the kitchen to extract the garlic juice from the small holes below the garlic press. You can also get the garlic pulp and oil through this garlic press. So to remove the pulp from the garlic, it is necessary to clean put the garlic press immediately after the use.",
+      "Price": 79,
+      "Ratings": 3,
+      "Status": "true",
+      "id": 2
+    },
+    {
+      "Name": "Pot",
+      "Description": "Pots are the large-capacity kitchen items that are used for the preparation of different kind of food in your kitchen. The main purposes of the pot in the kitchen are cooking the stews, porridge, boiled foods, steamed shellfish, and many more recipes. Sometimes these pots are also used for non-cooking purposes.",
+      "Price": "300",
+      "Ratings": "2",
+      "Status": "true",
+      "id": 3
+    },
+    {
+      "Name": "Tongs",
+      "Description": "Tongs are individual kitchen items that are used to move, rotate, and turn the food during cooking. Peoples also use the tongs to fetch a full serving in one grab. Different types of tongs are used for multiple purposes like tongs for grilling, tongs for serving the salad, and serving the salad for spaghetti.",
+      "Price": "267",
+      "Ratings": "4",
+      "Status": "true",
+      "id": 4
+    },
+    {
+      "Name": "Oven Mitts",
+      "Description": "Oven mitts or gloves are specially designed gloves that are used to protect your hands from hot objects in the kitchen. You need to wear these gloves for the ovens, stoves, and cookware, etc. These gloves are similar to the potholders.",
+      "Price": "500",
+      "Ratings": "5",
+      "Status": "false",
+      "id": 5
+    },
+    {
+      "Name": "Thermometer",
+      "Description": "A thermometer in the kitchen can be used to measure the internal temperature of the different food items. It is necessary to check the internal temperature of the different food items to ensure the proper cooking of this food. The thermometer is mostly used to check the internal temperature of meat, especially the roasts and steaks.",
+      "Price": "333",
+      "Ratings": "2",
+      "Status": "true",
+      "id": 6
+    },
+    {
+      "Name": "Blender",
+      "Description": "Blender is used to grind some semi-solid ingredients as compared to an immersion blender, which is used for soft ingredients. You can use the blender to grind the fresh fruits and vegetables. It can also be used to blend the ice-cream, milk, and other sweet sauces.",
+      "Price": "100",
+      "Ratings": "5",
+      "Status": "true",
+      "id": 7
+    },
+    {
+      "Name": "Trash Bin",
+      "Description": "You need a small trash bin in your kitchen to handle the small amount of wastage you get from the cooking material. Mostly, the kitchen trash bins are small and good looking to adjust in your kitchen. There are different styles and sizes of kitchen trash bins are available. You can choose anyone according to your kitchen style.",
+      "Price": "232",
+      "Ratings": "5",
+      "Status": "false",
+      "id": 8
+    },
+    {
+      "Name": "Chef’s Knife",
+      "Description": "Chef’s knife is a modern design knife that is used for multiple purposes in the kitchen. It can perform many tasks in your kitchen rather than concentrating on just one. You can use the chef’s knife for various purposes like slicing, vegetable chopping, meat slicing, and disjoining the large meat pieces.",
+      "Price": "90",
+      "Ratings": "1",
+      "Status": "true",
+      "id": 9
+    },
+    {
+      "Name": "Can Opener",
+      "Description": "A can opener is a useful item in your kitchen to open the steel cans. You can use this can to open your different types of cans that contain the necessary food materials. You can open the cans by taking the cans opener to the edge of the cans with digging the can lid.",
+      "Price": "518",
+      "Ratings": "3",
+      "Status": "false",
+      "id": 10
+    },
+    {
+      "Name": "Measuring Spoons",
+      "Description": "Measuring spoons are very helpful to measure the size of all type of ingredients in your cooking process. These ingredients include the dry and liquid ingredients as well. These spoons have different materials with different sizes. The most used sizes of spoons in the cooking process are teaspoons and tablespoons.",
+      "Price": "678",
+      "Ratings": "2",
+      "Status": "true",
+      "id": 11
+    },
+    {
+      "Name": "Vegetable Peeler",
+      "Description": "A vegetable peeler is an excellent item to save your maximum time in the kitchen. A vegetable peeler consists of a sharp blade with a handle.  You can use the vegetable peeler to remove the outer skin of different vegetables. These vegetables include potatoes, carrots, and some fruit as well, like the apples and pears.",
+      "Price": "340",
+      "Ratings": "4",
+      "Status": "true",
+      "id": 12
+    },
+    {
+      "Name": "Parchment Paper",
+      "Description": "It is another kitchen item to protect the food in your kitchen. This paper is specially designed for oven use with moisture-resistant features. You can use this paper for different purposes like line the cake molds and baking sheet. It is also used to wrap the fish and other food.",
+      "Price": "845",
+      "Ratings": "2",
+      "Status": "false",
+      "id": 13
+    },
+    {
+      "Name": "Ice Cube Tray",
+      "Description": "Ice cube trays are used to get the small pieces of ice for different purposes. These trays are put in the refrigerator. Moreover, you can use these trays for multiple purposes like for making the mini fruit popsicles, frozen yogurt smoothies, crazy crayons, frozen breast milk, and many other purposes.",
+      "Price": "15",
+      "Ratings": "1",
+      "Status": "true",
+      "id": 14
+    }
+  ]
+}

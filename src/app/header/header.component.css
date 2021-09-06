@@ -1,0 +1,19 @@
+.header {
+  background-color: #242d69;
+  color: #f7f7f7;
+}
+
+.navbar-brand {
+  font-family: ArchivoBlack-Regular;
+}
+
+.nav-name-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.nav-name-wrapper p {
+  margin-bottom: 0px;
+}

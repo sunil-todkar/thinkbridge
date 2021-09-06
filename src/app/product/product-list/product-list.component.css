@@ -1,0 +1,37 @@
+.products-wrapper {
+  background: #fff;
+}
+.products-wrapper .heading-wrapper {
+  background-color: #435d7d;
+  color: #fff;
+  padding: 10px 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.products-wrapper .heading-wrapper h3 {
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.products-wrapper th {
+  color: #4b637f;
+}
+
+.heading-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.list-wrapper {
+  padding: 20px;
+}
+
+.loading-wrapper {
+  text-align: center;
+}
+
+.loading-wrapper h4 {
+  font-size: 18px;
+}

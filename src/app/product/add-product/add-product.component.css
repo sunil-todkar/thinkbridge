@@ -1,0 +1,30 @@
+h2#swal2-title {
+  font-size: 20px;
+}
+
+.add-product-wrapper {
+  background-color: #fff;
+  padding: 40px 60px;
+}
+
+.add-product-wrapper form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.status-wrapper {
+  display: flex;
+}
+
+.heading-wrapper {
+  background-color: #435d7d;
+  color: #fff;
+  padding: 10px 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-wrapper h3 {
+  font-size: 18px;
+  margin-bottom: 0px;
+}
